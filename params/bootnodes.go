@@ -21,7 +21,8 @@ import "github.com/ethereum/go-ethereum/common"
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Altcoinchain network.
 var MainnetBootnodes = []string{
-	"enode://2877fc2a4042a754a45d2c8424191eff90675a6bb27431b6282f331aeb9c59d9925d753100ade588349eaadbccfedd4f68eb651d032fe3d060d7d0def92447f3@161.35.101.221:30304",
+	"enode://9355a3870bb3c7882a51797c6633380359c827febdbd89c87c0ff72914b351caf1642e5326ba78532f249082aad7c08d524cd418514865a49f8a5bca200ecbba@154.12.237.243:30303", //contabo1
+	"enode://926900ccd1e2f218ce0d3c31f731eb1af1be60049624db9a01fa73588157f3fb7fd04c5f0874ca7cc030ab79d836c1961c3ef67aefe09f352e8a7aba03d3cdbf@154.12.237.243:30304", //contabo2
 }
 
 // RopstenBootnodes are the enode URLs of the P2P bootstrap nodes running on the
