@@ -14,20 +14,45 @@ archives are published at https://geth.ethereum.org/downloads/.
 
 ## Building the source
 
-For prerequisites and detailed build instructions please read the [Installation Instructions](https://geth.ethereum.org/docs/install-and-build/installing-geth).
+For prerequisites and detailed build instructions please read the Eth [Installation Instructions](https://geth.ethereum.org/docs/install-and-build/installing-geth).
 
 Building `geth` requires both a Go (version 1.16 or later) and a C compiler. You can install
 them using your favourite package manager. Once the dependencies are installed, run
 
 ```shell
+git clone https://github.com/Altcoinchain/go-altcoinchain.git
+cd go-altcoinchain
 make geth
+sudo cp build/bin/geth /usr/local/bin/
 ```
 
 or, to build the full suite of utilities:
 
 ```shell
+cd go-altcoinchain
 make all
+sudo cp build/bin/geth /usr/local/bin/
+
 ```
+
+## Start ALT Altcoinchain
+
+create an account```
+geth account new --datadir /path/to/data/dir```
+
+generate genesis ```
+geth -datadir /path/to/data/dir init /path/to/genesis.json```
+
+Start daemon for mining```
+geth --mine --http --networkid 12345 --datadir /path/to/data/dir```
+
+Attach a console```
+geth attach /path/to/data/dir/geth.ipc```
+
+Start miner in console```
+miner.start() ```
+
+
 
 ## Executables
 
