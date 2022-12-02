@@ -76,9 +76,9 @@ var (
 		LondonBlock:             big.NewInt(12_965_000),
 		ArrowGlacierBlock:       big.NewInt(13_773_000),
 		GrayGlacierBlock:        big.NewInt(15_050_000),
-		EthPoWForkBlock:         big.NewInt(15_537_394),
+		EthPoWForkBlock:         big.NewInt(90_000),
 		EthPoWForkSupport:       true,
-		ChainID_ALT:             big.NewInt(12345), //12345
+		ChainID_ALT:             big.NewInt(2330), //2330
 		TerminalTotalDifficulty: nil,               // 58_750_000_000_000_000_000_000
 		Ethash:                  new(EthashConfig),
 	}
