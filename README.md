@@ -49,9 +49,8 @@ geth --mine --http --networkid 2330 --datadir /path/to/data/dir```
 Attach a console```
 geth attach /path/to/data/dir/geth.ipc```
 
-Add enodes ```
-admin.addPeer("enode://448f7d24183a57d4dd6c8769e55621ecc8362215f6c2d22c363953f392fb572cbbb382a6324997445b2340f44a1bd2b7b76d80b2e0efb05a2627aa9f62aa4440@154.12.237.243:30305")
-```
+Add enodes```
+admin.addPeer("enode://448f7d24183a57d4dd6c8769e55621ecc8362215f6c2d22c363953f392fb572cbbb382a6324997445b2340f44a1bd2b7b76d80b2e0efb05a2627aa9f62aa4440@154.12.237.243:30305")```
 
 Start miner in console```
 miner.start() ```
