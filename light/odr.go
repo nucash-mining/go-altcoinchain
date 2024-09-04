@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/core"
+	"github.com/Altcoinchain/go-altcoinchain/core/rawdb"
+	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/Altcoinchain/go-altcoinchain/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

@@ -26,14 +26,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/consensus"
+	"github.com/Altcoinchain/go-altcoinchain/core/rawdb"
+	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/Altcoinchain/go-altcoinchain/ethdb"
+	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/Altcoinchain/go-altcoinchain/params"
+	"github.com/Altcoinchain/go-altcoinchain/rlp"
 	lru "github.com/hashicorp/golang-lru"
 )
 

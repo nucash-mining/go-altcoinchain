@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/Altcoinchain/go-altcoinchain/core/state"
+	"github.com/Altcoinchain/go-altcoinchain/core/vm"
+	"github.com/Altcoinchain/go-altcoinchain/eth/tracers/logger"
+	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/Altcoinchain/go-altcoinchain/tests"
 
 	"github.com/urfave/cli/v2"
 )

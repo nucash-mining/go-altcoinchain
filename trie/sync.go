@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/common/prque"
+	"github.com/Altcoinchain/go-altcoinchain/core/rawdb"
+	"github.com/Altcoinchain/go-altcoinchain/ethdb"
+	"github.com/Altcoinchain/go-altcoinchain/log"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

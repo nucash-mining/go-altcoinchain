@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/Altcoinchain/go-altcoinchain/common/mclock"
+	"github.com/Altcoinchain/go-altcoinchain/common/prque"
+	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/enode"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/nodestate"
 )
 
 const (

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/Altcoinchain/go-altcoinchain/event"
+	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/Altcoinchain/go-altcoinchain/p2p"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/enode"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

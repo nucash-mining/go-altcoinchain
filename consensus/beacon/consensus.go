@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/consensus"
+	"github.com/Altcoinchain/go-altcoinchain/consensus/misc"
+	"github.com/Altcoinchain/go-altcoinchain/core/state"
+	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/Altcoinchain/go-altcoinchain/params"
+	"github.com/Altcoinchain/go-altcoinchain/rpc"
+	"github.com/Altcoinchain/go-altcoinchain/trie"
 )
 
 // Proof-of-stake protocol constants.

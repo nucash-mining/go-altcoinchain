@@ -30,11 +30,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
+	"https://github.com/Altcoinchain/go-altcoinchain/console/prompt"
+	"https://github.com/Altcoinchain/go-altcoinchain/internal/jsre"
+	"https://github.com/Altcoinchain/go-altcoinchain/internal/jsre/deps"
+	"https://github.com/Altcoinchain/go-altcoinchain/internal/web3ext"
+	"https://github.com/Altcoinchain/go-altcoinchain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/Altcoinchain/go-altcoinchain/crypto"
+	vfc "github.com/Altcoinchain/go-altcoinchain/les/vflux/client"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/enode"
+	"github.com/Altcoinchain/go-altcoinchain/rlp"
 )
 
 // Constants to match up protocol versions and messages

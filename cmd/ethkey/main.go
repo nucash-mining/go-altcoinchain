@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/Altcoinchain/go-altcoinchain/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

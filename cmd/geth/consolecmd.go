@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Altcoinchain/go-altcoinchain/cmd/utils"
+	"github.com/Altcoinchain/go-altcoinchain/console"
+	"github.com/Altcoinchain/go-altcoinchain/internal/flags"
+	"github.com/Altcoinchain/go-altcoinchain/node"
+	"github.com/Altcoinchain/go-altcoinchain/rpc"
 	"github.com/urfave/cli/v2"
 )
 

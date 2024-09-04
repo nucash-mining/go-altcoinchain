@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Altcoinchain/go-altcoinchain/cmd/devp2p/internal/v4test"
+	"github.com/Altcoinchain/go-altcoinchain/internal/utesting"
+	"github.com/Altcoinchain/go-altcoinchain/log"
 	"github.com/urfave/cli/v2"
 )
 

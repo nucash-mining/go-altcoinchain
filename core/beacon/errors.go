@@ -17,8 +17,8 @@
 package beacon
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/rpc"
+	"https://github.com/Altcoinchain/go-altcoinchain/common"
+	"https://github.com/Altcoinchain/go-altcoinchain/rpc"
 )
 
 // EngineAPIError is a standardized error message between consensus and execution

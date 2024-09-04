@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"https://github.com/Altcoinchain/go-altcoinchain/common"
+	"https://github.com/Altcoinchain/go-altcoinchain/common/hexutil"
 )
 
 var _ = (*payloadAttributesMarshaling)(nil)

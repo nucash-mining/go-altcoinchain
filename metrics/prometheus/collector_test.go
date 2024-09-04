@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/Altcoinchain/go-altcoinchain/metrics"
 )
 
 func TestMain(m *testing.M) {

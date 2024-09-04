@@ -34,12 +34,82 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Altcoinchain/go-altcoinchain/consensus"
+	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/Altcoinchain/go-altcoinchain/metrics"
+	"github.com/Altcoinchain/go-altcoinchain/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
+
+// EthashLachesis is a consensus engine that integrates Ethash PoW with the Lachesis consensus algorithm.
+type EthashLachesis struct {
+	ethash   *Ethash
+	lachesis *Lachesis
+	pos      *PoS
+	pot      *PoT
+	trust    *ProofOfTrust
+}
+
+// NewEthashLachesis returns a new EthashLachesis consensus engine.
+func NewEthashLachesis(config *params.ChainConfig, dagDir string, cacheDir string, powMode Mode) *EthashLachesis {
+	ethash := New(config, dagDir, cacheDir, powMode)
+	lachesis := NewLachesisConsensus()
+	pos := NewPoS()
+	pot := NewPoT()
+	trust := NewProofOfTrust()
+	return &EthashLachesis{
+		ethash:   ethash,
+		lachesis: lachesis,
+		pos:      pos,
+		pot:      pot,
+		trust:    trust,
+	}
+}
+
+// Finalize implements the block finalization process, integrating PoS, PoT, and Proof of Trust rewards.
+func (el *EthashLachesis) Finalize(chain consensus.ChainHeaderReader, header *types.Header, state *state.StateDB, txs []*types.Transaction, uncles []*types.Header) {
+	// Call the base Ethash finalization
+	el.ethash.Finalize(chain, header, state, txs, uncles)
+
+	// Distribute rewards for PoS, PoT, and Proof of Trust
+	el.DistributePoSRewards(state, header, big.NewInt(1e18))   // Example: 1 ALT reward
+	el.DistributePoTRewards(state, header, big.NewInt(1e18))   // Example: 1 ALT reward
+	el.DistributeTrustRewards(state, header, big.NewInt(1e18)) // Example: 1 ALT reward
+}
+
+// DistributePoSRewards distributes rewards to validators based on their stake and uptime.
+func (el *EthashLachesis) DistributePoSRewards(state *state.StateDB, header *types.Header, posReward *big.Int) {
+	for _, validator := range el.pos.Validators {
+		if validator.IsValidator {
+			reward := new(big.Int).Mul(posReward, validator.Stake)
+			reward.Div(reward, el.pos.TotalStake)
+			reward.Mul(reward, big.NewInt(int64(validator.Uptime)))
+			reward.Div(reward, big.NewInt(100))
+			state.AddBalance(validator.Address, reward)
+		}
+	}
+}
+
+// DistributePoTRewards distributes rewards based on transaction activity.
+func (el *EthashLachesis) DistributePoTRewards(state *state.StateDB, header *types.Header, potReward *big.Int) {
+	for _, record := range el.pot.TransactionRecords {
+		reward := new(big.Int).Mul(potReward, big.NewInt(int64(record.TransactionCount)))
+		reward.Div(reward, big.NewInt(int64(el.pot.TotalTransactions)))
+		state.AddBalance(record.Address, reward)
+	}
+}
+
+// DistributeTrustRewards distributes rewards based on node uptime.
+func (el *EthashLachesis) DistributeTrustRewards(state *state.StateDB, header *types.Header, trustReward *big.Int) {
+	for _, record := range el.trust.TrustRecords {
+		reward := new(big.Int).Mul(trustReward, big.NewInt(int64(record.Uptime)))
+		reward.Div(reward, big.NewInt(100))
+		state.AddBalance(record.Address, reward)
+	}
+}
+
+// Now include the entire original Ethash implementation here...
+// For instance, you would paste the entire original Ethash struct, methods, and logic here.
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")
 
@@ -695,3 +765,4 @@ func (ethash *Ethash) APIs(chain consensus.ChainHeaderReader) []rpc.API {
 func SeedHash(block uint64) []byte {
 	return seedHash(block)
 }
+

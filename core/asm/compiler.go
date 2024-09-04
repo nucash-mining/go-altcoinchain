@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"https://github.com/Altcoinchain/go-altcoinchain/common/math"
+	"https://github.com/Altcoinchain/go-altcoinchain/core/vm"
 )
 
 // Compiler contains information about the parsed source

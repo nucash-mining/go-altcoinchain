@@ -24,11 +24,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/Altcoinchain/go-altcoinchain/accounts/keystore"
+	"github.com/Altcoinchain/go-altcoinchain/common"
+	"github.com/Altcoinchain/go-altcoinchain/console/prompt"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/dnsdisc"
+	"github.com/Altcoinchain/go-altcoinchain/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 
