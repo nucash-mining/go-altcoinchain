@@ -17,7 +17,7 @@ Building `geth` requires both a Go (version 1.16 or later) and a C compiler. You
 them using your favourite package manager. Once the dependencies are installed, run
 
 ```shell
-git clone https://github.com/Altcoinchain/go-altcoinchain.git](https://github.com/nucash-mining/go-altcoinchain
+git clone https://github.com/nucash-mining/go-altcoinchain
 cd go-altcoinchain
 make geth
 sudo cp build/bin/geth /usr/local/bin/
