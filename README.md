@@ -41,7 +41,7 @@ generate genesis ```
 geth -datadir /path/to/data/dir init /path/to/genesis.json```
 
 Start daemon for mining ```
-geth --mine --http --networkid 2330 --datadir /path/to/data/dir```
+geth --mine --http --networkid 314156 --datadir /path/to/data/dir```
 
 Attach a console ```
 geth attach /path/to/data/dir/geth.ipc```
