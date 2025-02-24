@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/hexutil"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/hexutil"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
