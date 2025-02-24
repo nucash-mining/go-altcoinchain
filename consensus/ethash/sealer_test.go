@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/internal/testlog"
-	"github.com/Altcoinchain/go-altcoinchain/go-ethereum/log"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/internal/testlog"
+	"github.com/nucash-mining/go-altcoinchain/go-ethereum/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.
