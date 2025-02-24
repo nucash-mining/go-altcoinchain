@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/core/state"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/params"
-	"github.com/Altcoinchain/go-altcoinchain/rpc"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/core/state"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/params"
+	"github.com/nucash-mining/go-altcoinchain/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local
