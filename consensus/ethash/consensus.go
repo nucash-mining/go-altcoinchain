@@ -25,14 +25,14 @@ import (
     "time"
 
     mapset "github.com/deckarep/golang-set"
-    "github.com/Altcoinchain/go-altcoinchain/common"
-    "github.com/Altcoinchain/go-altcoinchain/go-ethereum/consensus"
-    "github.com/Altcoinchain/go-altcoinchain/consensus/misc"
-    "github.com/Altcoinchain/go-altcoinchain/core/state"
-    "github.com/Altcoinchain/go-altcoinchain/core/types"
-    "github.com/Altcoinchain/go-altcoinchain/params"
-    "github.com/Altcoinchain/go-altcoinchain/rlp"
-    "github.com/Altcoinchain/go-altcoinchain/trie"
+    "github.com/nucash-mining/go-altcoinchain/common"
+    "github.com/nucash-mining/go-altcoinchain/go-ethereum/consensus"
+    "github.com/nucash-mining/go-altcoinchain/consensus/misc"
+    "github.com/nucash-mining/go-altcoinchain/core/state"
+    "github.com/nucash-mining/go-altcoinchain/core/types"
+    "github.com/nucash-mining/go-altcoinchain/params"
+    "github.com/nucash-mining/go-altcoinchain/rlp"
+    "github.com/nucash-mining/go-altcoinchain/trie"
     "golang.org/x/crypto/sha3"
 )
 
