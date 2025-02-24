@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/Altcoinchain/go-altcoinchain/common"
-	"https://github.com/Altcoinchain/go-altcoinchain/consensus/ethash"
-	"https://github.com/Altcoinchain/go-altcoinchain/console/prompt"
-	"https://github.com/Altcoinchain/go-altcoinchain/core"
-	"https://github.com/Altcoinchain/go-altcoinchain/eth"
-	"https://github.com/Altcoinchain/go-altcoinchain/eth/ethconfig"
-	"https://github.com/Altcoinchain/go-altcoinchain/internal/jsre"
-	"https://github.com/Altcoinchain/go-altcoinchain/miner"
-	"https://github.com/Altcoinchain/go-altcoinchain/node"
+	"https://github.com/nucash-mining/go-altcoinchain/common"
+	"https://github.com/nucash-mining/go-altcoinchain/consensus/ethash"
+	"https://github.com/nucash-mining/go-altcoinchain/console/prompt"
+	"https://github.com/nucash-mining/go-altcoinchain/core"
+	"https://github.com/nucash-mining/go-altcoinchain/eth"
+	"https://github.com/nucash-mining/go-altcoinchain/eth/ethconfig"
+	"https://github.com/nucash-mining/go-altcoinchain/internal/jsre"
+	"https://github.com/nucash-mining/go-altcoinchain/miner"
+	"https://github.com/nucash-mining/go-altcoinchain/node"
 )
 
 const (
