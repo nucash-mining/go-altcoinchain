@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/Altcoinchain/go-altcoinchain/internal/jsre"
+	"github.com/nucash-mining/go-altcoinchain/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive
