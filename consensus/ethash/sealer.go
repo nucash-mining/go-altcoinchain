@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/common/hexutil"
-	"github.com/Altcoinchain/go-altcoinchain/consensus"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/common/hexutil"
+	"github.com/nucash-mining/go-altcoinchain/consensus"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
 )
 
 const (
