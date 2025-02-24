@@ -34,10 +34,10 @@ import (
 	"unsafe"
 
 	"github.com/edsrzf/mmap-go"
-	"github.com/Altcoinchain/go-altcoinchain/consensus"
-	"github.com/Altcoinchain/go-altcoinchain/log"
-	"github.com/Altcoinchain/go-altcoinchain/metrics"
-	"github.com/Altcoinchain/go-altcoinchain/rpc"
+	"github.com/nucash-mining/go-altcoinchain/consensus"
+	"github.com/nucash-mining/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/metrics"
+	"github.com/nucash-mining/go-altcoinchain/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 
