@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/Altcoinchain/go-altcoinchain/core/types"
-	"https://github.com/Altcoinchain/go-altcoinchain/consensus/ethash"
+	"https://github.com/nucash-mining/go-altcoinchain/core/types"
+	"https://github.com/nucash-mining/go-altcoinchain/consensus/ethash"
 )
 
 func TestCalcCustomDifficulty(t *testing.T) {
