@@ -30,11 +30,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"https://github.com/Altcoinchain/go-altcoinchain/console/prompt"
-	"https://github.com/Altcoinchain/go-altcoinchain/internal/jsre"
-	"https://github.com/Altcoinchain/go-altcoinchain/internal/jsre/deps"
-	"https://github.com/Altcoinchain/go-altcoinchain/internal/web3ext"
-	"https://github.com/Altcoinchain/go-altcoinchain/rpc"
+	"https://github.com/nucash-mining/go-altcoinchain/console/prompt"
+	"https://github.com/nucash-mining/go-altcoinchain/internal/jsre"
+	"https://github.com/nucash-mining/go-altcoinchain/internal/jsre/deps"
+	"https://github.com/nucash-mining/go-altcoinchain/internal/web3ext"
+	"https://github.com/nucash-mining/go-altcoinchain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )
