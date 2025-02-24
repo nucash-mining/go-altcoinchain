@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously
