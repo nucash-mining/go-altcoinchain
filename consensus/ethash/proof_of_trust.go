@@ -1,7 +1,7 @@
 package consensus
 
 import (
-    "github.com/Altcoinchain/go-altcoinchain/common"
+    "github.com/nucash-mining/go-altcoinchain/common"
 )
 
 // TrustRecord keeps track of the uptime and reliability of a node.
