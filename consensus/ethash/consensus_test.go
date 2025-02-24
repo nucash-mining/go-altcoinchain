@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/common/math"
-	"github.com/Altcoinchain/go-altcoinchain/types"
-	"github.com/Altcoinchain/go-altcoinchain/go-ethereum/params"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/common/math"
+	"github.com/nucash-mining/go-altcoinchain/types"
+	"github.com/nucash-mining/go-altcoinchain/go-ethereum/params"
 )
 
 type diffTest struct {
