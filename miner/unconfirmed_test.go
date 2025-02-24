@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always
