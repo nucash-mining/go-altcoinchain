@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/common/bitutil"
-	"github.com/Altcoinchain/go-altcoinchain/crypto"
-	"github.com/Altcoinchain/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/common/bitutil"
+	"github.com/nucash-mining/go-altcoinchain/crypto"
+	"github.com/nucash-mining/go-altcoinchain/log"
 	"golang.org/x/crypto/sha3"
 )
 
