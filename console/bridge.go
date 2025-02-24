@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/Altcoinchain/go-altcoinchain/accounts/scwallet"
-	"github.com/Altcoinchain/go-altcoinchain/usbwallet"
-	"github.com/Altcoinchain/go-altcoinchain/hexutil"
-	"github.com/Altcoinchain/go-altcoinchain/prompt"
-	"github.com/Altcoinchain/go-altcoinchain/jsre"
-	"github.com/Altcoinchain/go-altcoinchain/pc"
+	"github.com/nucash-mining/go-altcoinchain/accounts/scwallet"
+	"github.com/nucash-mining/go-altcoinchain/usbwallet"
+	"github.com/nucash-mining/go-altcoinchain/hexutil"
+	"github.com/nucash-mining/go-altcoinchain/prompt"
+	"github.com/nucash-mining/go-altcoinchain/jsre"
+	"github.com/nucash-mining/go-altcoinchain/pc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime
