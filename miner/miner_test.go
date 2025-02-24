@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/consensus/clique"
-	"github.com/Altcoinchain/go-altcoinchain/core"
-	"github.com/Altcoinchain/go-altcoinchain/core/rawdb"
-	"github.com/Altcoinchain/go-altcoinchain/core/state"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/core/vm"
-	"github.com/Altcoinchain/go-altcoinchain/eth/downloader"
-	"github.com/Altcoinchain/go-altcoinchain/ethdb/memorydb"
-	"github.com/Altcoinchain/go-altcoinchain/event"
-	"github.com/Altcoinchain/go-altcoinchain/trie"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/consensus/clique"
+	"github.com/nucash-mining/go-altcoinchain/core"
+	"github.com/nucash-mining/go-altcoinchain/core/rawdb"
+	"github.com/nucash-mining/go-altcoinchain/core/state"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/core/vm"
+	"github.com/nucash-mining/go-altcoinchain/eth/downloader"
+	"github.com/nucash-mining/go-altcoinchain/ethdb/memorydb"
+	"github.com/nucash-mining/go-altcoinchain/event"
+	"github.com/nucash-mining/go-altcoinchain/trie"
 )
 
 type mockBackend struct {
