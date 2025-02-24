@@ -1,7 +1,7 @@
 package consensus
 
 import (
-    "github.com/Altcoinchain/go-altcoinchain/common"
+    "github.com/Altcoinchain/nucash-mining/common"
 )
 
 // TransactionRecord keeps track of transaction activity for an address.
