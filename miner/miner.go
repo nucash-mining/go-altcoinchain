@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/common/hexutil"
-	"github.com/Altcoinchain/go-altcoinchain/consensus"
-	"github.com/Altcoinchain/go-altcoinchain/core"
-	"github.com/Altcoinchain/go-altcoinchain/core/state"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/eth/downloader"
-	"github.com/Altcoinchain/go-altcoinchain/event"
-	"github.com/Altcoinchain/go-altcoinchain/log"
-	"github.com/Altcoinchain/go-altcoinchain/params"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/common/hexutil"
+	"github.com/nucash-mining/go-altcoinchain/consensus"
+	"github.com/nucash-mining/go-altcoinchain/core"
+	"github.com/nucash-mining/go-altcoinchain/core/state"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/eth/downloader"
+	"github.com/nucash-mining/go-altcoinchain/event"
+	"github.com/nucash-mining/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable
