@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Altcoinchain/go-altcoinchain/core/rawdb"
-	"github.com/Altcoinchain/go-altcoinchain/ethdb"
-	"github.com/Altcoinchain/go-altcoinchain/log"
-	"github.com/Altcoinchain/go-altcoinchain/rlp"
+	"github.com/nucash-mining/go-altcoinchain/core/rawdb"
+	"github.com/nucash-mining/go-altcoinchain/ethdb"
+	"github.com/nucash-mining/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch
