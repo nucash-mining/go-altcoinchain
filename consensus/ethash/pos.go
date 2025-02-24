@@ -2,7 +2,7 @@ package consensus
 
 import (
     "math/big"
-    "github.com/Altcoinchain/go-altcoinchain/common"
+    "github.com/nucash-mining/go-altcoinchain/common"
 )
 
 // Validator represents a participant in the PoS mechanism.
