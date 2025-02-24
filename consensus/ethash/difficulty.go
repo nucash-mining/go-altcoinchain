@@ -18,8 +18,8 @@ package ethash
 
 import (
 	"math/big"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/params"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/params"
 	"github.com/holiman/uint256"
 )
 
