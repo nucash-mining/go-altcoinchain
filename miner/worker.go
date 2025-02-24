@@ -25,16 +25,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Altcoinchain/go-altcoinchain/common"
-	"github.com/Altcoinchain/go-altcoinchain/consensus"
-	"github.com/Altcoinchain/go-altcoinchain/consensus/misc"
-	"github.com/Altcoinchain/go-altcoinchain/core"
-	"github.com/Altcoinchain/go-altcoinchain/core/state"
-	"github.com/Altcoinchain/go-altcoinchain/core/types"
-	"github.com/Altcoinchain/go-altcoinchain/event"
-	"github.com/Altcoinchain/go-altcoinchain/log"
-	"github.com/Altcoinchain/go-altcoinchain/params"
-	"github.com/Altcoinchain/go-altcoinchain/trie"
+	"github.com/nucash-mining/go-altcoinchain/common"
+	"github.com/nucash-mining/go-altcoinchain/consensus"
+	"github.com/nucash-mining/go-altcoinchain/consensus/misc"
+	"github.com/nucash-mining/go-altcoinchain/core"
+	"github.com/nucash-mining/go-altcoinchain/core/state"
+	"github.com/nucash-mining/go-altcoinchain/core/types"
+	"github.com/nucash-mining/go-altcoinchain/event"
+	"github.com/nucash-mining/go-altcoinchain/log"
+	"github.com/nucash-mining/go-altcoinchain/params"
+	"github.com/nucash-mining/go-altcoinchain/trie"
 )
 
 const (
